@@ -1,0 +1,62 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  color: #2B2636;
+  font-size: 35px;
+  font-weight: 300;
+  margin: 10px 0 0 0;
+}
+
+h2 {
+  color: #aaa;
+  font-weight: 300;
+  margin: 0;
+}
+
+a {
+  color: #1B97E9;
+  text-decoration: none;
+}
+
+.page {
+  margin: 0 auto;
+  max-width: 450px;
+  padding: 50px;
+}
+
+header {
+  text-align: center;
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  behavior: url(PIE.htc);
+}
+
+section.content {
+  color: #333;
+  margin: 20px 0 0 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0 3px 10px 3px;
+  background-color: #eee;
+  padding: 2px 8px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+footer {
+  margin: 50px 0 0 0;
+  text-align: center;
+}
