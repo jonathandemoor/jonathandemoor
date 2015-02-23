@@ -6,7 +6,7 @@ h1 {
   color: #2B2636;
   font-size: 35px;
   font-weight: 300;
-  margin: 10px 0 0 0;
+  margin: 10px auto 0 auto;
 }
 
 h2 {
@@ -23,7 +23,7 @@ a {
 .page {
   margin: 0 auto;
   max-width: 450px;
-  padding: 50px;
+  padding: 30px;
 }
 
 header {
@@ -59,4 +59,15 @@ ul li {
 footer {
   margin: 50px 0 0 0;
   text-align: center;
+}
+
+@media only screen and (max-width: 360px), only screen and (max-device-width: 360px) {
+  h1 {
+    max-width: 160px;
+  }
+
+  header img {
+    width: 100px;
+    height: 100px;
+  }
 }
